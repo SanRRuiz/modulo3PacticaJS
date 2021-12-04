@@ -88,4 +88,10 @@ const concesionaria = {
     },
 }   
 
-console.log(concesionaria);
+console.log(concesionaria.autos[0].vendido);
+
+concesionaria.venderAuto(autos[0].patente);
+console.log(concesionaria.autos[0].vendido);
+console.log(concesionaria.autos[1].vendido);
+
+console.log(concesionaria.totalDeVentas());
